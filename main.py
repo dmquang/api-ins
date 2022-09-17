@@ -46,7 +46,7 @@ def Home():
 def Follow(cookie: str,uid: str):
     return follow(cookie,uid)
 
-uvicorn.run(app,host="0.0.0.0",port="8080")
+
 
 
 
